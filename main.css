@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+header {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(36, 85, 163), rgb(36, 108, 225), rgb(36, 85, 163));
+    color: white;
+    display: block;
+}
+
+#header_content {
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header_content >a>img {
+    width: 40px;
+    height: 40px;
+}
+
+.Vit_highlight {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#header_content>h1 {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-right: 63.5rem;
+}
+
+#header_content>p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 0.5rem;
+}
+
+#sidebar {
+
+    margin-bottom: 30px;
+    text-align: left;
+    background-color: white;
+    position: fixed;
+    top: 55px;
+    height: 688px;
+    width: 250px;
+    display: block;
+    padding-left: 1.5rem;
+}
+
+#sidebar>ul>li {
+    padding-top: 2rem;
+    list-style: none;
+}
+
+#sidebar>ul>li>a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sidebar>ul>li>a:hover {
+    color: purple;
+    font-size: 20px;
+}
+
+#spotlight {
+    margin-left: 250px;
+    position: fixed;
+    border: 1px solid;
+    border-color:  rgb(36, 85, 163) #ececec;
+    height: 688px;
+    width: 1300px;
+    background-color: #ECF0F1;
+}
+
+.spot{
+    padding-top: 10px;
+    background-color:  #ececec;
+    margin-left: 10px;
+    border: 1px solid;
+    border-color: #ececec;
+    height: 49px;
+}
+
+#spotlight>h1 {
+    padding-left: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#spotlight_content{
+    
+    margin-left: 10px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 1300px;
+    position: fixed;
+}
+
+#spotlight_content >h3{
+    border: 2px solid;
+    height: 26px;
+    width: 76.94px;
+    font-size: 13PX;
+    padding-top: 2px;
+    padding-left: 3px;
+    border-radius: 4px;
+    background-color: #10ccf4;
+    border-color: #10ccf4;
+    font-family: "Open Sans", sans-serif;
+}
+
+#spotlight_content >ul>li{
+    margin-left: 50px;
+    padding-top: 10px;
+}
